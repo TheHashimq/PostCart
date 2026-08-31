@@ -1,2 +1,5 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PostCart.Domain/PostCart.Domain.csproj" />
+  </Folder>
 </Solution>
