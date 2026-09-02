@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace PostCart.Domain
+namespace PostCart.Domain.ValueObjects
 {
 	public class Email
 	{

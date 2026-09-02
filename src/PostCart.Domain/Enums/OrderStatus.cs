@@ -1,4 +1,4 @@
-namespace PostCart.Domain
+namespace PostCart.Domain.Enums
 {
     public enum OrderStatus
     {

@@ -1,4 +1,4 @@
-namespace PostCart.Domain
+namespace PostCart.Domain.Entities
 {
    public class Seller : Person
    {
