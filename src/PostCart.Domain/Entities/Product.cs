@@ -9,7 +9,7 @@ namespace PostCart.Domain.Entities
         public int Stock { get; set; }
         public Guid SellerId { get; set; }
         public bool IsActive { get; set; }
-        public string imageUrl { get; set; }
+        public string ImageUrl { get; private set; }
 
         private Product(string name, string description, Money price, int stock, Guid sellerId , string imageUrl = "https://via.placeholder.com/150")
         {
@@ -20,7 +20,7 @@ namespace PostCart.Domain.Entities
             Stock = stock;
             SellerId = sellerId;
             IsActive = true;
-            imageUrl = imageUrl; // Use the provided image URL or the default
+            ImageUrl = imageUrl; // Use the provided image URL or the default
         }
         public static Product Create(string name, string description, Money price, int stock, Guid sellerId, string imageUrl = "https://via.placeholder.com/150")
         {
